@@ -1,0 +1,17 @@
+#笔记
+
+'''
+http.cookiejar 工作原理：创建一个带有cookie的opener，在访问登录的URL时，
+将登录后的cookie保存下来，然后利用这个cookie来访问其他网址。
+查看登录之后才能看到的信息。
+'''
+
+#u'中间部分可以打汉字'
+
+#request高级用法：
+#http://docs.python-requests.org/zh_CN/latest/user/advanced.html#advanced
+
+#requests库中r.text与r.content二者方法主要不同在于，前者不需要编码，但是有时候可能会出现问题，后者则需要编码显示
+
+data = Request("https://book.douban.com/top250?start=0",headers={"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36"
+})

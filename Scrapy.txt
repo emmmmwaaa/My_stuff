@@ -1,0 +1,46 @@
+#利用cmd进入目录cd，然后运行
+#scrapy startproject + 项目名字 将会自动创建目录
+
+#scrapy shell + url（你想分析的）
+#response.body 返回网页的body信息
+#response.xpath().extract() 返回匹配信息的具体文本
+
+startproject	scrapy startproject [project_name]	创建项目
+settings	scrapy settings [options]	在项目中运行时，该命令将会输出醒目的设定值，否则输出Scrapy默认设定
+runspider	scrapy runspider spider_file.py	在未创建项目的情况下，运行一个在Python文件中的spider
+shell	scrapy shell [url]	以给定的URL或者空启动Scrapy
+fetch	scrapy fetch [url]	使用Scrapy下载器下载给定的URL，并将获取到的内容送到标准输出。
+view	scrapy view [url]	在浏览器中打开给定的URL，并以Scrapy spider获取到的形式展现，可以用来检查spider所获取到的页面
+version	scrapy version [-v]	输出scrapy版本，配合-v运行时，该命令将同时输出python，Twisted以及平台的信息，方便bug提交
+
+scrapy项目中各个文件的作用
+
+[1]定义Item
+作为一个爬虫的容器使用，必须要继承现在scrapy.Item类之下
+import scrapy
+class ComicItem(scrapy.Item):
+    dir_name = scrapy.Field()
+    link_url = scrapy.Field()
+    img_url = scrapy.Field()
+    image_paths = scrapy.Field()
+即创建Field()对象
+
+[2]编写Spider
+必须继承scrapy.Spider类，并且定义一些属性：
+class ComicSpider(scrapy.Spider):
+    name = 'comic' #用于区别Spider，该名字必须唯一，可在母文件夹运行scrapy crawl + Spider的名字运行爬虫
+    def __init__(self):
+        #图片链接server域名
+        self.server_img = 'http://n9.1whour.com/'
+        #章节链接server域名
+        self.server_link = 'http://comic.kukudm.com'
+        self.allowed_domains = ['comic.kukudm.com'] #过滤不符合要求的域名，注意该域名用列表表示
+        self.start_urls = ['http://comic.kukudm.com/comiclist/3/'] #包含了Spider在启动的时候运行爬取的url列表，后续的url从此url生成
+        #匹配图片地址的正则表达式
+        self.pattern_img = re.compile(r'\+"(.+)\'></a')
+	def parse1(self, response): #parse()是Spider的一个方法，被调用的时候每个初始URL完成下载后生成的Response对象将会作为唯一的参数传递给该函数，
+	                            #该方法负责解析返回的数据（response data)，提取数据以及生成需要进一步处理的URL的Request对象。
+原理：Scrapy为Spider的start_urls属性中的每个URL创建了scrapy.Ruquest对象，并将parse方法作为回调函数callback赋值给Request
+Ruquest对象经过调度，执行生成scrapy.http.Response对象并送回给spider的parse()方法
+
+

@@ -101,10 +101,8 @@ DOWNLOADER_MIDDLEWARES = {
     'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': None,   #需要将scrapy默认的置为None不调用
     'scrapy.downloadermiddlewares.retry.RetryMiddleware': 90,
     # 'scrapy.pipelines.images.ImagesPipeline': 300,
-    # 'lianjiapro.middlewares.ProxyMiddleWare': 100
+    # 'lianjiapro.middlewares.ProxyMiddleWare': 100,
     # 'scrapy_proxies.RandomProxy': 100,
-    # 'lianjiapro.middlewares.ProxyMiddleWare': 400,
-    # 'scrapy.contrib.downloadermiddleware.httpproxy.HttpProxyMiddleware': 110,
     # 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware': 110,
     # 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware':None
 }

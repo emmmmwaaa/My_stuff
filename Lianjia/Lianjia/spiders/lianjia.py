@@ -21,7 +21,7 @@ class lianjiaproject(scrapy.Spider):
     def start_requests(self):
         yield scrapy.Request(url=self.start_urls[0], callback=self.parse1)
         for i in range(2, 101):
-            time.sleep(3)
+            # time.sleep(3)
             url = 'https://nj.lianjia.com/ershoufang/pg%s/' % str(i)
             yield scrapy.Request(url=url, callback=self.parse1)
 

@@ -88,6 +88,3 @@ class Proxies(object):
                 self.list.append(proxy)
         except Exception:
             return False
-
-a = Proxies()
-print(a.crawl_ip())

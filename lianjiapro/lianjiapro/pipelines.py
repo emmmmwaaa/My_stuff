@@ -1,35 +1,24 @@
 # -*- coding: utf-8 -*-
-
-# Define your item pipelines here
-#
-# Don't forget to add your pipeline to the ITEM_PIPELINES setting
-# See: https://doc.scrapy.org/en/latest/topics/item-pipeline.html
-from openpyxl import Workbook
+import mysql.connector
 
 
 class lianjiaproPipeline(object):
 
     def __init__(self):
-        self.wb = Workbook()
-        self.sheet = self.wb.active
-        self.sheet.append(['city_name', 'community_name', 'room_type', 'floor_space', 'toward', 'decoration_type',
-                           'location', 'total_price', 'per_flat'])
+        self.conn = mysql.connector.connect(user='root', password='Gxc072403666', database='test')
+        self.cursor = self.conn.cursor()
+        self.cursor.execute('''create table user (city_name varchar(255), community_name varchar(255), room_type varchar(255), floor_space varchar(255), toward varchar(255), decoration_type varchar(255),
+                           location varchar(255), total_price varchar(255), per_flat varchar(255))''')
+
 
     def process_item(self, dict, spider):
         for item in dict['info']:
-            # elements = item['basic_info'].split('|')
-            # try:
-            #     room_type = elements[1]
-            #     floor_space = re.findall(('\d+'), elements[2])[0]
-            #     toward = elements[3]
-            #     decoration_type = elements[4]
-            # except IndexError:
-            #     room_type = ''
-            #     floor_space = ''
-            #     toward = ''
-            #     decoration_type = ''
-            self.sheet.append([item['city_name'], item['community_name'], item['room_type'], item['floor_space'],
-                    item['toward'], item['decoration_type'], item['location'],item['total_price'], item['per_flat']])
-
-        self.wb.save('D:/Download/info.xlsx')
+            self.cursor.execute('insert into user value (%s, %s, %s, %s, %s, %s, %s, %s, %s)',
+                                [item['city_name'], item['community_name'], item['room_type'], item['floor_space'],
+                    item['toward'], item['decoration_type'], item['location'], item['total_price'], item['per_flat']])
+        self.conn.commit()
         return dict
+
+    def close_spider(self, spider):
+        self.conn.close()
+

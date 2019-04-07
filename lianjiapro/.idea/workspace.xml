@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1916b6c-5b40-4c53-93a3-5447eb0b1fce" name="Default Changelist" comment="add something">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lianjia/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lianjia/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lianjia/Lianjia/spiders/lianjia.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Lianjia/Lianjia/spiders/lianjia.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lianjiapro/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/lianjiapro/items.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lianjiapro/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/lianjiapro/pipelines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lianjiapro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/lianjiapro/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lianjiapro/spiders/lianjiapro.py" beforeDir="false" afterPath="$PROJECT_DIR$/lianjiapro/spiders/lianjiapro.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lianjiapro/spiders/proxies.py" beforeDir="false" afterPath="$PROJECT_DIR$/lianjiapro/spiders/proxies.py" afterDir="false" />
     </list>
@@ -17,6 +17,20 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="lianjiapro" />
   </component>
@@ -25,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lianjiapro/spiders/lianjiapro.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+            <state relative-caret-position="16">
+              <caret line="95" column="34" selection-start-line="95" selection-start-column="34" selection-end-line="95" selection-end-column="34" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -37,8 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lianjiapro/pipelines.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="304">
+              <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -46,8 +60,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lianjiapro/spiders/proxies.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1408">
-              <caret line="92" column="19" selection-start-line="92" selection-start-column="19" selection-end-line="92" selection-end-column="19" />
+            <state relative-caret-position="784">
+              <caret line="53" column="14" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -67,8 +81,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lianjiapro/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1648">
-              <caret line="103" column="52" selection-start-line="103" selection-start-column="52" selection-end-line="103" selection-end-column="52" />
+            <state relative-caret-position="1632">
+              <caret line="102" column="52" selection-start-line="102" selection-start-column="52" selection-end-line="102" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -76,8 +90,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lianjiapro/middlewares.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2240">
-              <caret line="143" selection-start-line="143" selection-end-line="143" />
+            <state relative-caret-position="2208">
+              <caret line="141" column="26" selection-start-line="141" selection-start-column="26" selection-end-line="141" selection-end-column="26" />
               <folding>
                 <element signature="e#169#195#0" expanded="true" />
               </folding>
@@ -101,18 +115,19 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/lianjiapro/middlewares.py" />
-        <option value="$PROJECT_DIR$/lianjiapro/spiders/proxies.py" />
         <option value="$PROJECT_DIR$/lianjiapro/settings.py" />
         <option value="$PROJECT_DIR$/lianjiapro/items.py" />
         <option value="$PROJECT_DIR$/lianjiapro/pipelines.py" />
+        <option value="$PROJECT_DIR$/lianjiapro/spiders/proxies.py" />
         <option value="$PROJECT_DIR$/lianjiapro/spiders/lianjiapro.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="873" />
-    <option name="width" value="1054" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="671" />
+    <option name="y" value="30" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -149,12 +164,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lianjiapro/spiders/proxies.py" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.notifications" />
+    <property name="settings.editor.selected.configurable" value="SQL Dialects" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -207,6 +223,11 @@
       <workItem from="1554311503392" duration="541000" />
       <workItem from="1554341094414" duration="29324000" />
       <workItem from="1554389900564" duration="525000" />
+      <workItem from="1554438889560" duration="16225000" />
+      <workItem from="1554465144233" duration="599000" />
+      <workItem from="1554480463364" duration="129000" />
+      <workItem from="1554523034566" duration="296000" />
+      <workItem from="1554626429978" duration="280000" />
     </task>
     <task id="LOCAL-00001" summary="add something">
       <created>1554259445535</created>
@@ -219,7 +240,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68695000" />
+    <option name="totallyTimeSpent" value="86224000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -231,10 +252,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="699" y="0" width="843" height="830" extended-state="0" />
-    <editor active="true" />
+    <frame x="537" y="24" width="784" height="832" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49769586" visible="true" weight="0.22236341" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49769586" weight="0.24689655" />
       <window_info id="Structure" order="1" sideWeight="0.50230414" side_tool="true" weight="0.11579652" />
       <window_info id="Favorites" order="2" sideWeight="0.50230414" side_tool="true" weight="0.11579652" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -246,15 +266,15 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32957748" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32816902" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3931624" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50126904" side_tool="true" weight="0.39260313" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49873096" visible="true" weight="0.39204547" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32816902" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32896462" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32896462" />
       <window_info anchor="right" id="Coverage" order="5" side_tool="true" />
     </layout>
     <layout-to-restore>
@@ -346,10 +366,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/580a86c3-bcc8-42b5-898b-0eaf844c04b4/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b7ea2c7a-5d8e-4dd4-8e3f-ea85988ddaa7/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/lianjiapro/spiders/lianjiapro.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+        <state relative-caret-position="16">
+          <caret line="95" column="34" selection-start-line="95" selection-start-column="34" selection-end-line="95" selection-end-column="34" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -358,15 +384,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lianjiapro/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="304">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lianjiapro/spiders/proxies.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1408">
-          <caret line="92" column="19" selection-start-line="92" selection-start-column="19" selection-end-line="92" selection-end-column="19" />
+        <state relative-caret-position="784">
+          <caret line="53" column="14" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
@@ -382,15 +408,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lianjiapro/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1648">
-          <caret line="103" column="52" selection-start-line="103" selection-start-column="52" selection-end-line="103" selection-end-column="52" />
+        <state relative-caret-position="1632">
+          <caret line="102" column="52" selection-start-line="102" selection-start-column="52" selection-end-line="102" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lianjiapro/middlewares.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2240">
-          <caret line="143" selection-start-line="143" selection-end-line="143" />
+        <state relative-caret-position="2208">
+          <caret line="141" column="26" selection-start-line="141" selection-start-column="26" selection-end-line="141" selection-end-column="26" />
           <folding>
             <element signature="e#169#195#0" expanded="true" />
           </folding>

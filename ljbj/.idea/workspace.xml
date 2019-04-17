@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30c1cdeb-87cd-4151-b026-7a4b672d7e61" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ljbj.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ljpro1/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ljpro1/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ljpro1/.idea/ljpro1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ljpro1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ljpro1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ljpro1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ljpro1/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ljpro1/ljpro1/spiders/ljpro1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ljpro1/ljpro1/spiders/proxies.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lianjiapro/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lianjiapro/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lianjiapro/lianjiapro/spiders/proxies.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lianjiapro/lianjiapro/spiders/proxies.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/ljbj/spiders/ljbj.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="301">
-              <caret line="104" column="51" lean-forward="true" selection-start-line="104" selection-start-column="51" selection-end-line="104" selection-end-column="51" />
+              <caret line="104" column="51" selection-start-line="104" selection-start-column="51" selection-end-line="104" selection-end-column="51" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -103,7 +92,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="950" />
-    <option name="width" value="979" />
+    <option name="width" value="980" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -115,6 +104,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -145,14 +135,15 @@
       <workItem from="1554703705689" duration="12265000" />
       <workItem from="1554728456886" duration="99000" />
       <workItem from="1554890204286" duration="19000" />
+      <workItem from="1555374651361" duration="72000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12383000" />
+    <option name="totallyTimeSpent" value="12455000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="760" y="0" width="783" height="832" extended-state="0" />
+    <frame x="760" y="0" width="784" height="832" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.5075862" />
@@ -174,8 +165,8 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" weight="0.32965517" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32967034" />
+      <window_info active="true" anchor="right" id="Database" order="4" visible="true" weight="0.3282967" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,19 +187,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1f8838b1-fc12-4d6a-83c6-25edca94d11c/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ljbj/spiders/ljbj.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="104" column="51" lean-forward="true" selection-start-line="104" selection-start-column="51" selection-end-line="104" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ljbj/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
@@ -220,6 +198,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1f8838b1-fc12-4d6a-83c6-25edca94d11c/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/47ae8352-a26c-4f2b-975c-485fb95b0230/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ljbj/spiders/ljbj.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="104" column="51" selection-start-line="104" selection-start-column="51" selection-end-line="104" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
